@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Filmovie</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="header-left">
+            <h2>FILMOVIE</h2>
+          </div>
+      </header>
+      <div class="top-wrapper">
+        <div class="container">
+          <h1>F I L M O V I E</h1>
+          <p>Platform untuk melihat ulasan dan sinopsis film ter-update</p>
+        </div>
+      </div>
+      <div class="movie-wrapper">
+        <div class="container">
+          <div class="heading">
+            <h2>Yuk lihat ulasan dan sinopsis film yang mau kamu tonton disini!</h2>
+          </div>
+          <div class="movies">
+            <div class="movie">
+              <div class="movie-icon">
+                <img src="./img/jlmin.jpg" alt="Zack Snyder's Justice League">
+              </div>
+               <p class="text-contents-title">Zack Snyder's Justice League</p>
+               <p class="text-contents">8.1★</p>
+               <button onclick="redirect('./justice.html')" class="btn-message">Lihat Detail</button>
+            </div>
+            </div>
+          <div class="movies">
+            <div class="movie">
+              <div class="movie-icon">
+                <img src="./img/aqp2.jpeg" alt="A Quiet Place">
+              </div>
+               <p class="text-contents-title">A Quiet Place II</p>
+               <p class="text-contents">7.7★</p>
+               <button onclick="redirect('./quietplace.html')" class="btn-message">Lihat Detail</button>
+            </div>
+            </div>
+          <div class="movies">
+            <div class="movie">
+              <div class="movie-icon">
+                <img src="./img/tmvstm.jpg" alt="The Mitchells VS The Machines">
+              </div>
+               <p class="text-contents-title">The Mitchells VS The Machines</p>
+               <p class="text-contents">7.7★</p>
+               <button onclick="redirect('./versus.html')" class="btn-message">Lihat Detail</button>
+            </div>
+          </div>
+          <div class="movies">
+            <div class="movie">
+              <div class="movie-icon">
+                <img src="./img/luca.jpg" alt="Luca">
+              </div>
+               <p class="text-contents-title">Luca</p>
+               <p class="text-contents">7.6★</p>
+               <button onclick="redirect('./luca.html')" class="btn-message">Lihat Detail</button>
+            </div>
+        </div>
+        <script>
+            function redirect(url)
+            {
+                location.href = url;
+            }
+        </script>
+            
+</body>
+</html>
